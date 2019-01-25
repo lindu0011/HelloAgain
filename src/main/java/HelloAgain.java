@@ -3,5 +3,7 @@ public class HelloAgain {
         System.out.println("Hello");
         System.out.println("Trigger Jenkins automatically!");
         System.out.println("demo");
+        Student student=new Student("lin", 1);
+        System.out.println("student name: "+student.getName());
     }
 }
